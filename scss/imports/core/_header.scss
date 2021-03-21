@@ -1,0 +1,23 @@
+header {
+  width: 100vw;
+  display: flex;
+  padding: 53px 0 0 43px;
+  position: absolute;
+  z-index: 9;
+  .furnitown,
+  .share {
+    a {
+      text-decoration: none;
+      font-size: 11px;
+      color: #000000;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+  .furnitown {
+    padding-right: 40px;
+  }
+  .share {
+    padding-right: 20px;
+  }
+}

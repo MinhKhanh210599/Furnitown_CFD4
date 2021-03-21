@@ -1,0 +1,92 @@
+header {
+  .furnitown,
+  .share {
+    a {
+      color: #233446 !important;
+    }
+  }
+}
+.about {
+  width: 100vw;
+  height: 100%;
+  padding-top: 180px;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .part1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      h2 {
+        font-size: 44px;
+        color: #745a2d;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      > p {
+        padding-top: 15px;
+        padding-bottom: 50px;
+      }
+      p {
+        text-align: center;
+        max-width: 785px;
+        font-size: 14px;
+        line-height: 46px;
+        letter-spacing: 1px;
+      }
+    }
+    .part2 {
+      .row {
+        width: 100%;
+        .content {
+          p {
+            text-align: left;
+            font-size: 14px;
+            color: #191919;
+            line-height: 46px;
+            letter-spacing: 1px;
+          }
+        }
+        .img {
+          padding-top: 110px;
+        }
+      }
+    }
+    .part3 {
+      padding-bottom: 90px;
+      p {
+        padding: 10px 0;
+        text-align: center;
+        &:first-child {
+          max-width: 690px;
+          color: #191919;
+          letter-spacing: 1px;
+          line-height: 26px;
+          padding: 150px 0 30px;
+        }
+      }
+      img {
+        width: 100%;
+        padding-top: 40px;
+      }
+    }
+    .part4 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding-bottom: 140px;
+      p {
+        max-width: 580px;
+        text-align: center;
+        font-size: 14px;
+        color: #191919;
+        line-height: 26px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
